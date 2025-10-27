@@ -156,6 +156,20 @@ hr {
     border-radius: 10px;
 }
 
+.color-gallery img {
+    width: 120px;
+    border-radius: 10px;
+}
+
+.carousel-inner .carousel-item img {
+    max-width: 100%;
+    max-width: 400px; 
+    margin: 0 auto;
+    display: block;
+    object-fit: contain; 
+    height: auto;
+}
+
 @media (max-width: 600px) {
     .spec-table td:last-child {
         text-align: left;
